@@ -6,7 +6,7 @@ nav {font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 30px;
     }
 .menu {display: inline-block;
-    width: 10%;
+    width: 70px;
     }
 h1 {
     color: darkblue; 
@@ -24,6 +24,7 @@ main {
     color: rgb(62, 24, 97); 
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
     }
 section {
     color: rgb(62, 24, 97); 
@@ -41,10 +42,9 @@ img {
     margin: 20px;
     }
 .gallery {
-    width: 300px;
+    width: 400px;
     margin: 20px;
     box-shadow: 5px 5px 10px rgb(117, 116, 116);
-    box-align: center;
     display: run-in;
     }
  button {
@@ -59,7 +59,7 @@ img {
 button:hover {
     background-color: grey;
     } 
- fieldset {
+fieldset {
      margin: 20px; width: 25%; border-radius: 10px; border-color:darkblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 label {
@@ -76,7 +76,6 @@ textarea {
     }
 #label-message {
     position: relative;
-    bottom: 50px;
     }
 
 .inner-div {
@@ -86,8 +85,11 @@ textarea {
     width: 31%; vertical-align:baseline; box-shadow: 5px 5px 10px rgb(117, 116, 116);
     }
 .kep {
-    display: inline-block; 
+    display: inline-block; box-align: center; width: 20%;
     }
 .leiras {
-    display: inline-block; 
+    display: inline-block; margin-left: 5px;
     }
+.index-img {
+        width: 450px; 
+        }
