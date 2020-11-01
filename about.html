@@ -71,7 +71,7 @@
 <div>
     <div>
         <label for="name">Neved: </label>
-        <input id="name" type="text" name="name" type="text">
+        <input id="name" type="text" name="name" type="text" minlength="5">
     </div>
     <div>
         <label for="email">E-mail: </label>
@@ -79,10 +79,10 @@
     </div>
     <div>
         <label for="message" id="label-message">Üzenet:</label>
-       <textarea name="Üzenet" id="message" cols="49" rows="6"></textarea>
+       <textarea name="Üzenet" id="message" cols="49" rows="6" minlength="20"></textarea>
     </div>
     <div>
-        <button class="send" type="button" onclick="send()">Elküldés</button>
+        <button class="send" type="button" onclick="alert('Köszönöm az üzenetet!')">Elküldés</button>
     </div>
 </fieldset>
 </section>
@@ -92,8 +92,6 @@
         <a href="#navbar">Menü</a>
     </button>
 </footer>
-
-<script src="js/main.js"></script>
 
 </body>
 
