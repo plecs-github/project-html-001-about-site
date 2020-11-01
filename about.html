@@ -4,45 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="túra">
+    <meta name="description" content="túrák">
     <title>Rólam</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <h3>Rólam</h3>
-
-    </header>
 
     <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a>
-            </li>
-            <li>
-                <a href="/works.html">Works</a>
-            </li>
-            <li>
-                <a href="/gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a href="/about.html">About</a>
-            </li>
-        </ul>
+        <div class="menu"><a href="index.html">Home</a></div>
+        <div class="menu"><a href="works.html">Works</a></div>
+        <div class="menu" ><a href="gallery.html">Gallery</a></div>
+        <div class="menu"><a href="#about.html">About</a></div>
+        <a name="navbar"></a>
     </nav>
 
+    <header>
+        <h2>Rólam</h2>
+    </header>
+
     <main>
-
-
+        <p>Miután a túráimról már sokat elárultam, most következzen néhány mondat magamról...
+        </p>
     </main>
 
     <section>
+     <img src="/project-html-001-about-site/img/20200819.jpg" alt="Me"> 
+        
 
 
-    </section>
+<h3>Személyes adatok</h3>
+<ul>
+<li>Név: Plechl Sándor
+</li> 
+<li>Lakhely: Budapest
+</li> 
+<li>Iskolai végzettség: főiskola
+</li> 
+<li>Nyelvismeret: angol, német
+</li> 
+<li>Hobby: túra, zene
+</li> 
+</ul>
 
-    <footer>
-        <button><a href="index.html">Vissza a főoldalra</a></button>
-    </footer>
+<h3>Öt érdekesség rólam</h3>
+<ol>
+<li>Hatalmas CD gyüjteményem van
+</li> 
+<li>Leghosszabb túrám több, mint 100 km hosszú volt 
+</li> 
+<li>Kedvenc évszakom az ősz
+</li> 
+<li>Szeretek finomakat enni
+</li> 
+<li>A tanú című filmet már legalább 25x láttam és még mindig nem unom! :-)
+</li> 
+</ol>
+</section>
+
+<section><h3>Kapcsolat</h3>
+     
+ <fieldset id="delivery">
+<legend>Írj nekem!</legend>
+<div>
+    <div>
+        <label for="name">Neved: </label>
+        <input id="name" type="text" name="name" type="text">
+    </div>
+    <div>
+        <label for="email">E-mail: </label>
+        <input id="email" type="email" name="email" type="email">
+    </div>
+    <div>
+        <label for="message" id="label-message">Üzenet:</label>
+       <textarea name="Üzenet" id="message" cols="49" rows="6"></textarea>
+    </div>
+    <div>
+        <button class="send" type="button" onclick="alert('A rendelés elküldve, a pizza körülbelül 30 perc múlva érkezik!')">Elküldés</button>
+    </div>
+</fieldset>
+
+
+ 
+ 
+
+
+</section>
+
+
+ 
+<footer>
+    <button>
+        <a href="#navbar">Menü</a>
+    </button>
+</footer>
 </body>
 
 </html>

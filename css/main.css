@@ -1,0 +1,93 @@
+html {
+    background: rgb(203, 225, 238);
+}
+nav {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+    }
+.menu {display: inline-block;
+    width: 10%;
+    }
+h1 {
+    color: darkblue; 
+    font-size: 56px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    }
+h2 {
+    color: darkblue; 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    }
+main {
+    color: rgb(62, 24, 97); 
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+section {
+    color: rgb(62, 24, 97); 
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    }
+img {
+    width: 25%;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(117, 116, 116);
+        }
+.works {
+    width: 200px;
+    margin: 20px;
+    }
+.gallery {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(117, 116, 116);
+    box-align: center;
+    display: run-in;
+    }
+ button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px 3px darkslategrey);
+    background-color: lightgrey;
+    }
+button:hover {
+    background-color: grey;
+    } 
+ fieldset {
+     margin: 20px; width: 25%; border-radius: 10px; border-color:darkblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+label {
+    width: 100px;
+    margin: 10px;
+    }
+input {
+    width: 350px;
+    margin: 10px;
+    }
+textarea {
+    width: 350px;
+    margin: 5px;
+    }
+#label-message {
+    position: relative;
+    bottom: 50px;
+    }
+
+.inner-div {
+    background: lavender; height: 150px; display: inline-block;  
+    text-align: center; border-radius: 15px; flood-color:  rgb(62, 24, 97); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; border: solid 1px rgb(62, 24, 97); 
+    width: 31%; vertical-align:baseline; box-shadow: 5px 5px 10px rgb(117, 116, 116);
+    }
+.kep {
+    display: inline-block; 
+    }
+.leiras {
+    display: inline-block; 
+    }
